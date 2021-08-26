@@ -1,6 +1,6 @@
 node{
-   def tomcatWeb = 'C:\\Program Files\\Apache Software Foundation\\Tomcat9.0_bittu\\webapps'
-   def tomcatBin = 'C:\\Program Files\\Apache Software Foundation\\Tomcat9.0_bittu\\bin'
+    def tomcatWeb = 'C:\\Tomcat-8.5.33\\webapps'
+   def tomcatBin = 'C:\\Tomcat-8.5.33\\bin'
    def tomcatStatus = ' '
     stage('SCM checkout'){
        git 'https://github.com/varshithbittu/jenkines.git'
